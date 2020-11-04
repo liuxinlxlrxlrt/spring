@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="reconstruction_javaee:war">
+    <output-path>$PROJECT_DIR$/reconstruction_javaee/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>reconstruction_javaee</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="reconstruction_javaee.war">
+      <element id="artifact" artifact-name="reconstruction_javaee:war exploded" />
+    </root>
+  </artifact>
+</component>
