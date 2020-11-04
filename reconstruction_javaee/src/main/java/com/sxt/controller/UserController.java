@@ -15,7 +15,16 @@ public class UserController {
 //    private UserService userService =BeanFactory.getBean(UserServiceImpl.class);
 //    private UserService userService =BeanFactory.getBean("com.sxt.service.impl.UserServiceImpl");
 //    private UserService userService =BeanFactory.getBean("userService");
-    private UserService userService = (UserService) BeanFactory.ioc.get("userService");
+    private UserService userService= (UserService) BeanFactory.ioc.get("userService");
+
+
+    public UserService getUserService() {
+        return userService;
+    }
+
+    public void setUserService(UserService userService) {
+        this.userService = userService;
+    }
 
     public void queryUserById(){
         int id = 1;

@@ -3,5 +3,7 @@
     <!--声明对象-->
     <bean id = "userDao" class="com.sxt.dao.impl.UserDaoImpl"></bean>
     <bean id = "userService" class="com.sxt.service.impl.UserServiceImpl"></bean>
-    <bean id = "userController" class="com.sxt.service.impl.UserServiceImpl"></bean>
+    <bean id = "userController" class="com.sxt.service.impl.UserServiceImpl">
+        <property name="userService" ref="userService"></property>
+    </bean>
 </beans>

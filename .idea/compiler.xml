@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="reconstruction_javaee" />
+        <module name="spring01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.sxt.spring" target="1.5" />
       <module name="reconstruction_javaee" target="1.7" />
       <module name="spring" target="1.5" />
+      <module name="spring01" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
