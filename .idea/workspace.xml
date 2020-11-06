@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da8e67d3-2357-42a7-81cf-af2678fd02bd" name="Default Changelist" comment="">
+    <list default="true" id="f0291982-67bb-4299-9b52-46df01f4801d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/reconstruction_javaee_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/reconstruction_javaee_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/Persion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/User01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/UserDao01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/factory/DynamicFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/factory/StaticFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestPersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/Persion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/User01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/UserDao01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/factory/DynamicFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/factory/StaticFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/service/impl/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/test/TestPersion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/test/TestUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconstruction_javaee/reconstruction_javaee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/reconstruction_javaee/reconstruction_javaee.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring01/spring01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/spring01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring01/src/test/java/com/itheima/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/src/test/java/com/itheima/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring01/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring01/target/test-classes/com/itheima/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/target/test-classes/com/itheima/test.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/reconstruction_javaee/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring01/target/" />
+    <ignored path="$PROJECT_DIR$/reconstruction_javaee/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,31 +51,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring01/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring01/src/test/java/com/itheima/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="70" selection-start-line="70" selection-end-line="79" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="21" column="5" lean-forward="true" selection-end-line="35" />
+              <folding>
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestAnimalList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +95,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,37 +105,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/reconstruction_javaee/pom.xml" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/dao/impl/userDao.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/dao/impl/UserDao.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/domain/User.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/service/impl/UserService.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/controller/EmpController.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/factory/UserFactory.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/service/impl/UserService2Impl.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/resources/bean.properties" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/test/TestUser.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/factory/BeanFactory.java" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/bean.xml" />
-        <option value="$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestSpring.java" />
-        <option value="$PROJECT_DIR$/spring01/src/test/java/spring/AppTest.java" />
-        <option value="$PROJECT_DIR$/spring01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/Animal.java" />
+        <option value="$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestAnimalList.java" />
         <option value="$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/spring01/src/test/java/com/itheima/test.java" />
       </list>
     </option>
-  </component>
-  <component name="InvalidFacetManager">
-    <ignored-facets>
-      <facet id="reconstruction_javaee/invalid/Web" />
-    </ignored-facets>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -102,12 +120,23 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring01" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="671" />
+    <option name="x" value="197" />
+    <option name="y" value="65" />
     <option name="width" value="1330" />
     <option name="height" value="1040" />
   </component>
@@ -122,6 +151,11 @@
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
@@ -174,6 +208,16 @@
               <item name="spring01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,42 +227,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spring01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604638658535" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/reconstruction_javaee" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604658827891" />
+    <property name="last_opened_file_path" value="D:/ConsoleAutomation/sample/uploadtool/ilop-UI-test" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -232,9 +251,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test.test1">
-    <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test.TestSpring" />
+  <component name="RunManager">
+    <configuration name="TestAnimalList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.TestAnimalList" />
       <module name="spring01" />
       <extension name="coverage">
         <pattern>
@@ -246,40 +265,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sxt.test.TestUser" />
-      <module name="reconstruction_javaee" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sxt.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.test" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.test1" />
-        <item itemvalue="Application.TestSpring" />
-        <item itemvalue="Application.TestUser" />
+        <item itemvalue="Application.TestAnimalList" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +276,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="da8e67d3-2357-42a7-81cf-af2678fd02bd" name="Default Changelist" comment="" />
+      <changelist id="f0291982-67bb-4299-9b52-46df01f4801d" name="Default Changelist" comment="" />
       <created>1604317153283</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -297,30 +285,10 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="test_test1 - 2020.11.04 at 18h 55m 33s.xml">
-      <configuration name="test.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_test1 - 2020.11.04 at 18h 57m 33s.xml">
-      <configuration name="test.test1" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11796000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1769437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -330,31 +298,28 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49873737" weight="0.35" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49873737" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6586402" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4716714" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012626" side_tool="true" weight="0.256447" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49368685" weight="0.62181306" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49368685" weight="0.33569404" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.33142856" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32912987" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.22184986" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/reconstruction_javaee/src/main/java/com/sxt/dao.java" />
@@ -543,30 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring01/src/test/java/com/itheima/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -577,94 +518,70 @@
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>reconstruction_javaee:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Invalid</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>spring01</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/spring01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestPersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="21" column="5" lean-forward="true" selection-end-line="35" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="70" selection-start-line="70" selection-end-line="79" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestAnimalList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

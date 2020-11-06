@@ -11,9 +11,9 @@ public class test {
     public void test1(){
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         UserDao userDao1 = (UserDao) applicationContext.getBean("userDao");
-        UserDao userDao2 = (UserDao) applicationContext.getBean("userDao");
+//        UserDao userDao2 = (UserDao) applicationContext.getBean("userDao");
         System.out.println(userDao1);
-        System.out.println(userDao2);
+//        System.out.println(userDao2);
         //结果一样:说明userspring的Bean存在一个
         // com.itheima.dao.impl.UserDaoImpl@3712b94
         //com.itheima.dao.impl.UserDaoImpl@3712b94
@@ -21,6 +21,9 @@ public class test {
         //结果不一样：说明userspring的Bean存在多个
         //com.itheima.dao.impl.UserDaoImpl@53f65459
         //com.itheima.dao.impl.UserDaoImpl@3b088d51
+
+        //手动关闭，执行销毁方法
+        ((ClassPathXmlApplicationContext) applicationContext).close();
     }
 
 }

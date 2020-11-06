@@ -1,10 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
-       xsi:schemaLocation="
-          http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl" scope="prototype"></bean>
+    <!--Bean的生命周期设置:
+    1. Init-method：指定类中初始化方法名称,
+    2.Destroy-method：指定类中销毁方法名称
+    -->
+    <!--<bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl"-->
+    <!--init-method="init" destroy-method="destroy"></bean>-->
+
+    <!--1.无参构造方法实例化-->
+    <!--<bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl"></bean>-->
+
+    <!--2.工厂静态方法实例化-->
+    <!--<bean id="userDao" class="com.itheima.factory.StaticFactory" factory-method="getUserDao"></bean>-->
+
+    <!--3.工厂实现方法实例化-->
+    <!--<bean id="factory" class="com.itheima.factory.DynamicFactory" ></bean>-->
+    <!--<bean id="userDao" factory-bean="factory" factory-method="getUserDao"/>-->
+
+    <!--<bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl"></bean>-->
+
+    <!--4.set()方法将UserDao注入到UserService内部,依赖注入的体现-->
+    <!--<bean id="userService" class="com.itheima.service.impl.UserServiceImpl">-->
+        <!--<property name="userDao" ref="userDao"></property>-->
+    <!--</bean>-->
+
+    <!--
+        id：标签对象在IOC容器中的key
+        class：类的完全限定名
+        scope="prototype"：用户每次从IOC容器中取对象都给调用者一个新的对象
+        scope="prototype"：这个对象在IOC容器里面只会存在一个
+        scope="request"：在web项目中同一个request共享一个对象
+        scope="session"：在web项目中同一个session共享一个对象
+
+        name：在springmvc里面去指定controller的请求路径，如name=/user.action
+
+        lazy-init="false"：默认情况下直接创建对象，当置为true，取对象时才会创建对象，false时，不取也会创建对象
+    -->
+    <!--声明一个User对象-->
+    <!--<bean id="user01" class="com.itheima.dao.User01" scope="singleton">-->
+    <!--</bean>-->
+
+    <!--声明一个String对象-->
+    <!--<bean id="str01" class="java.lang.String"></bean>-->
+
+    <!--<bean id="persion01" class="com.itheima.dao.Persion">-->
+        <!--<property name="id" value="1"></property>-->
+        <!--<property name="name" value="小明"></property>-->
+        <!--<property name="address" value="武汉"></property>-->
+        <!--<property name="birthday" ref="date01"></property>-->
+    <!--</bean>-->
+
+    <!--声明一个Data01对象-->
+    <!--<bean id="date01" class="java.util.Date"></bean>-->
+
+    <!--<bean id="persion02" class="com.itheima.dao.Persion">-->
+        <!--&lt;!&ndash;<constructor-arg index="0" value="1"></constructor-arg>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg index="1" value="张三"></constructor-arg>&ndash;&gt;-->
+        <!--&lt;!&ndash;<constructor-arg index="2" value="武汉"></constructor-arg>&ndash;&gt;-->
+
+        <!--<constructor-arg name="id" value="1"></constructor-arg>-->
+        <!--<constructor-arg name="name" value="张三"></constructor-arg>-->
+        <!--<constructor-arg name="address" value="武汉"></constructor-arg>-->
+        <!--<constructor-arg name="birthday" ref="date01"></constructor-arg>-->
+    <!--</bean>-->
+
+    <!--list集合的注入-->
+    <bean id="animal01" class="com.itheima.dao.Animal">
+        <property name="stringList">
+            <list>
+                <value>武汉1</value>
+                <value>武汉2</value>
+                <value>武汉3</value>
+            </list>
+        </property>
+    </bean>
 
 </beans>
