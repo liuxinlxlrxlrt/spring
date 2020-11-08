@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans>
     <!--声明对象-->
-    <bean id = "userDao" class="com.sxt.dao.impl.UserDaoImpl"></bean>
-    <bean id = "userService" class="com.sxt.service.impl.UserServiceImpl"></bean>
-    <bean id = "userController" class="com.sxt.service.impl.UserServiceImpl">
+    <bean id = "userDao" class="com.sxt.dao.UserDaoImpl"></bean>
+    <bean id = "userService" class="com.UserServiceImpl"></bean>
+    <bean id = "userController" class="com.UserServiceImpl">
         <property name="userService" ref="userService"></property>
     </bean>
 </beans>

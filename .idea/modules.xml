@@ -5,6 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/com.sxt.spring.iml" filepath="$PROJECT_DIR$/com.sxt.spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/reconstruction_javaee/reconstruction_javaee.iml" filepath="$PROJECT_DIR$/reconstruction_javaee/reconstruction_javaee.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring01/spring01.iml" filepath="$PROJECT_DIR$/spring01/spring01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_annotation/spring_annotation.iml" filepath="$PROJECT_DIR$/spring_annotation/spring_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cglib_proxy/spring_cglib_proxy.iml" filepath="$PROJECT_DIR$/spring_cglib_proxy/spring_cglib_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_dynamic_proxy/spring_dynamic_proxy.iml" filepath="$PROJECT_DIR$/spring_dynamic_proxy/spring_dynamic_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_static_proxy/spring_static_proxy.iml" filepath="$PROJECT_DIR$/spring_static_proxy/spring_static_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_xml/spring_xml.iml" filepath="$PROJECT_DIR$/spring_xml/spring_xml.iml" />
     </modules>
   </component>
 </project>

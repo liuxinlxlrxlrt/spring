@@ -3,5 +3,10 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/reconstruction_javaee" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_cglib_proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_dynamic_proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_static_proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_xml" charset="UTF-8" />
   </component>
 </project>

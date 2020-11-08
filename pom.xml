@@ -10,6 +10,11 @@
     <modules>
         <module>reconstruction_javaee</module>
         <module>spring01</module>
+        <module>spring_xml</module>
+        <module>spring_annotation</module>
+        <module>spring_static_proxy</module>
+        <module>spring_dynamic_proxy</module>
+        <module>spring_cglib_proxy</module>
     </modules>
     <packaging>pom</packaging>
 

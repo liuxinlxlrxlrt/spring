@@ -25,8 +25,17 @@
 
     <!--4.set()方法将UserDao注入到UserService内部,依赖注入的体现-->
     <!--<bean id="userService" class="com.itheima.service.impl.UserServiceImpl">-->
-        <!--<property name="userDao" ref="userDao"></property>-->
+    <!--<property name="userDao" ref="userDao"></property>-->
     <!--</bean>-->
+
+    <!--""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+
+    <!--1.无参构造方法去创建User对象-->
+    <bean id="user01" class="com.itheima.dao.User01">
+        <property name="id" value="2"></property>
+        <property name="name" value="潘红"></property>
+        <property name="address" value="江西"></property>
+    </bean>
 
     <!--
         id：标签对象在IOC容器中的key
@@ -44,29 +53,36 @@
     <!--<bean id="user01" class="com.itheima.dao.User01" scope="singleton">-->
     <!--</bean>-->
 
-    <!--声明一个String对象-->
-    <!--<bean id="str01" class="java.lang.String"></bean>-->
 
-    <!--<bean id="persion01" class="com.itheima.dao.Persion">-->
-        <!--<property name="id" value="1"></property>-->
-        <!--<property name="name" value="小明"></property>-->
-        <!--<property name="address" value="武汉"></property>-->
-        <!--<property name="birthday" ref="date01"></property>-->
-    <!--</bean>-->
-
+    <!--声明一个Integer对象-->
+    <!--<bean id="int01" class="java.lang.Integer"></bean>-->
     <!--声明一个Data01对象-->
     <!--<bean id="date01" class="java.util.Date"></bean>-->
 
-    <!--<bean id="persion02" class="com.itheima.dao.Persion">-->
-        <!--&lt;!&ndash;<constructor-arg index="0" value="1"></constructor-arg>&ndash;&gt;-->
-        <!--&lt;!&ndash;<constructor-arg index="1" value="张三"></constructor-arg>&ndash;&gt;-->
-        <!--&lt;!&ndash;<constructor-arg index="2" value="武汉"></constructor-arg>&ndash;&gt;-->
-
-        <!--<constructor-arg name="id" value="1"></constructor-arg>-->
-        <!--<constructor-arg name="name" value="张三"></constructor-arg>-->
-        <!--<constructor-arg name="address" value="武汉"></constructor-arg>-->
-        <!--<constructor-arg name="birthday" ref="date01"></constructor-arg>-->
+    <!--属性注入-->
+    <!--<bean id="persion01" class="com.itheima.dao.Persion">-->
+    <!--<property name="id" value="1"></property>-->
+    <!--<property name="name" value="小明"></property>-->
+    <!--<property name="address" value="武汉"></property>-->
+    <!--<property name="birthday" ref="date01"></property>-->
     <!--</bean>-->
+
+    <!--带参构造方法注入-->
+    <!--<bean id="persion02" class="com.itheima.dao.Persion">-->
+    <!--&lt;!&ndash;<constructor-arg index="0" value="1"></constructor-arg>&ndash;&gt;-->
+    <!--&lt;!&ndash;<constructor-arg index="1" value="张三"></constructor-arg>&ndash;&gt;-->
+    <!--&lt;!&ndash;<constructor-arg index="2" value="武汉"></constructor-arg>&ndash;&gt;-->
+
+    <!--<constructor-arg name="id" value="1"></constructor-arg>-->
+    <!--<constructor-arg name="name" value="张三"></constructor-arg>-->
+    <!--<constructor-arg name="address" value="武汉"></constructor-arg>-->
+    <!--<constructor-arg name="birthday" ref="date01"></constructor-arg>-->
+    <!--</bean>-->
+
+    <!--声明一个String对象-->
+    <bean id="str01" class="java.lang.String">
+        <constructor-arg name="original" value="武汉4"></constructor-arg>
+    </bean>
 
     <!--list集合的注入-->
     <bean id="animal01" class="com.itheima.dao.Animal">
@@ -75,8 +91,115 @@
                 <value>武汉1</value>
                 <value>武汉2</value>
                 <value>武汉3</value>
+                <ref bean="str01"/>
+                <bean class="java.lang.String">
+                    <constructor-arg name="original" value="武汉5"></constructor-arg>
+                </bean>
+            </list>
+        </property>
+        <property name="user01List">
+            <list>
+                <bean class="com.itheima.dao.User01">
+                    <property name="id" value="1"></property>
+                    <property name="name" value="许晴"></property>
+                    <property name="address" value="杭州"></property>
+                </bean>
+                <ref bean="user01"></ref>
             </list>
         </property>
     </bean>
 
+
+    <!--Set集合的注入-->
+    <bean id="animal02" class="com.itheima.dao.Animal">
+        <property name="strSet">
+            <set>
+                <value>杭州1</value>
+                <value>杭州2</value>
+                <value>杭州3</value>
+                <ref bean="str01"/>
+                <bean class="java.lang.String">
+                    <constructor-arg name="original" value="杭州5"></constructor-arg>
+                </bean>
+            </set>
+        </property>
+        <property name="user01Set">
+            <set>
+                <bean class="com.itheima.dao.User01">
+                    <property name="id" value="3"></property>
+                    <property name="name" value="马小玲"></property>
+                    <property name="address" value="香港"></property>
+                </bean>
+                <ref bean="user01"/>
+            </set>
+        </property>
+    </bean>
+
+    <!--Map集合的注入-->
+    <bean id="animal03" class="com.itheima.dao.Animal">
+        <property name="strMap">
+            <!-- key：键的值，
+            key-ref：键的值指向ioc容器中的某个对象
+            value：值
+            value-ref：键的值指向ioc容器中的某个对象
+            -->
+            <map>
+                <entry key="重庆1" value="中国重庆1"></entry>
+                <entry key="重庆2" value="中国重庆2"></entry>
+                <entry key="重庆3" value="中国重庆3"></entry>
+                <entry key-ref="str01" value-ref="str01"></entry>
+                <entry key="武汉5" value-ref="str01"></entry>
+            </map>
+        </property>
+        <property name="user01Map">
+            <map>
+                <entry key="1">
+                    <bean class="com.itheima.dao.User01">
+                        <property name="id" value="4"></property>
+                        <property name="name" value="蒋勤勤"></property>
+                        <property name="address" value="成都"></property>
+                    </bean>
+                </entry>
+                <entry key="2" value-ref="user01"></entry>
+            </map>
+        </property>
+    </bean>
+
+    <!--数组集合的注入-->
+    <bean id="animal04" class="com.itheima.dao.Animal">
+        <property name="strs">
+            <array>
+                <value>成都01</value>
+                <value>成都02</value>
+                <value>成都03</value>
+                <ref bean="str01"/>
+                <bean class="java.lang.String">
+                    <constructor-arg name="original" value="成都05"></constructor-arg>
+                </bean>
+            </array>
+        </property>
+        <property name="user01s">
+            <array>
+                <bean class="com.itheima.dao.User01">
+                    <property name="id" value="5"></property>
+                    <property name="name" value="李嘉欣"></property>
+                    <property name="address" value="台湾"></property>
+                </bean>
+                <ref bean="user01"/>
+            </array>
+        </property>
+    </bean>
+
+    <!--properties属性的注入-->
+    <bean id="animal05" class="com.itheima.dao.Animal">
+        <property name="properties">
+            <props>
+                <prop key="长沙1">中国长沙1</prop>
+                <prop key="长沙2">中国长沙2</prop>
+                <prop key="长沙3">中国长沙3</prop>
+                <prop key="username">root</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
+    </bean>
 </beans>

@@ -11,7 +11,7 @@ public class UserDaoImpl implements UserDao {
                 user = new User(1, "小明", "武汉");
                 break;
             case 2:
-                user = new User(2, "老张", "日本");
+                user = new User(2, "老张", "上海");
                 break;
             case 3:
                 user = new User(3, "老周", "深圳");

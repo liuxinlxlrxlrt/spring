@@ -8,6 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="reconstruction_javaee" />
         <module name="spring01" />
+        <module name="spring_annotation" />
+        <module name="spring_cglib_proxy" />
+        <module name="spring_dynamic_proxy" />
+        <module name="spring_static_proxy" />
+        <module name="spring_xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -15,6 +20,11 @@
       <module name="reconstruction_javaee" target="1.7" />
       <module name="spring" target="1.5" />
       <module name="spring01" target="1.7" />
+      <module name="spring_annotation" target="1.7" />
+      <module name="spring_cglib_proxy" target="1.7" />
+      <module name="spring_dynamic_proxy" target="1.7" />
+      <module name="spring_static_proxy" target="1.7" />
+      <module name="spring_xml" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

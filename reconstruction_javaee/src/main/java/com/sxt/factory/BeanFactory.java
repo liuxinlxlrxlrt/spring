@@ -1,7 +1,5 @@
 package com.sxt.factory;
 
-import com.sxt.dao.impl.UserDao;
-
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
@@ -99,8 +97,8 @@ public class BeanFactory {
             for(Map.Entry<Object,Object> entry:entries){
                 mapings.put(entry.getKey().toString(),entry.getValue().toString());
                 //创建所有对象
-                Class<?> forName= Class.forName(entry.getValue().toString());
-                Object obj= forName.newInstance();
+//                Class<?> forName= Class.forName(entry.getValue().toString());
+//                Object obj= forName.newInstance();
                ioc.put(entry.getKey().toString(),getBean3(entry.getKey().toString()));
             }
         } catch (Exception e) {
