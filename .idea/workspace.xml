@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0291982-67bb-4299-9b52-46df01f4801d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/reconstruction_javaee_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/reconstruction_javaee_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/Persion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/User01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/UserDao01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/factory/DynamicFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/factory/StaticFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/service/impl/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestPersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/test/TestUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/Persion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/User01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/UserDao01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/factory/DynamicFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/factory/StaticFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/service/impl/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/test/TestPersion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/test/TestUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reconstruction_javaee/reconstruction_javaee.iml" beforeDir="false" afterPath="$PROJECT_DIR$/reconstruction_javaee/reconstruction_javaee.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/spring01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/spring01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/src/test/java/com/itheima/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/src/test/java/com/itheima/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/target/classes/com/itheima/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring01/target/test-classes/com/itheima/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring01/target/test-classes/com/itheima/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring01/target/" />
@@ -53,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="1610">
               <caret line="70" selection-start-line="70" selection-end-line="79" selection-end-column="11" />
             </state>
           </provider>
@@ -62,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="21" column="5" lean-forward="true" selection-end-line="35" />
+            <state relative-caret-position="345">
+              <caret line="21" column="5" selection-end-line="35" />
               <folding>
                 <element signature="e#190#191#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
@@ -135,7 +100,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="197" />
+    <option name="x" value="196" />
     <option name="y" value="65" />
     <option name="width" value="1330" />
     <option name="height" value="1040" />
@@ -236,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604658827891" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604664515301" />
     <property name="last_opened_file_path" value="D:/ConsoleAutomation/sample/uploadtool/ilop-UI-test" />
   </component>
   <component name="RunDashboard">
@@ -285,10 +250,19 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1769437" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17895442" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -303,13 +277,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4716714" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4716714" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012626" side_tool="true" weight="0.256447" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49368685" weight="0.33569404" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.33142856" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.33002833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -549,10 +523,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1610">
+          <caret line="70" selection-start-line="70" selection-end-line="79" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring01/src/main/java/com/itheima/dao/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="21" column="5" lean-forward="true" selection-end-line="35" />
+        <state relative-caret-position="345">
+          <caret line="21" column="5" selection-end-line="35" />
           <folding>
             <element signature="e#190#191#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
@@ -563,13 +544,6 @@
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#503#504#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring01/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="70" selection-start-line="70" selection-end-line="79" selection-end-column="11" />
         </state>
       </provider>
     </entry>
