@@ -1,4 +1,4 @@
-package com.sxt.dao;
+package com.sxt.dao.impl;
 
 import com.sxt.domain.User;
 

@@ -1,8 +1,11 @@
 package com.sxt.controller;
 
+import com.sxt.dao.impl.UserDaoImpl;
 import com.sxt.domain.User;
 import com.sxt.factory.BeanFactory;
+import com.sxt.factory.UserFactory;
 import com.sxt.service.impl.UserService;
+import com.sxt.service.impl.UserServiceImpl;
 
 public class UserController {
 
