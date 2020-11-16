@@ -4,9 +4,17 @@
     <file url="file://$PROJECT_DIR$/reconstruction_javaee" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_aop_annotaion" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_aop_xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_cglib_proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_datasource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_dynamic_proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_jdbcTemplate02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_jdbcTemplete" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_mybatis_xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_quartz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_static_proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_transaction" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_xml" charset="UTF-8" />
   </component>
 </project>

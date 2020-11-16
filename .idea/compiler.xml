@@ -9,9 +9,17 @@
         <module name="reconstruction_javaee" />
         <module name="spring01" />
         <module name="spring_annotation" />
+        <module name="spring_aop_annotaion" />
+        <module name="spring_aop_xml" />
         <module name="spring_cglib_proxy" />
+        <module name="spring_datasource" />
         <module name="spring_dynamic_proxy" />
+        <module name="spring_jdbcTemplate02" />
+        <module name="spring_jdbcTemplete" />
+        <module name="spring_mybatis_xml" />
+        <module name="spring_quartz" />
         <module name="spring_static_proxy" />
+        <module name="spring_transaction" />
         <module name="spring_xml" />
       </profile>
     </annotationProcessing>
@@ -21,9 +29,17 @@
       <module name="spring" target="1.5" />
       <module name="spring01" target="1.7" />
       <module name="spring_annotation" target="1.7" />
+      <module name="spring_aop_annotaion" target="1.7" />
+      <module name="spring_aop_xml" target="1.7" />
       <module name="spring_cglib_proxy" target="1.7" />
+      <module name="spring_datasource" target="1.7" />
       <module name="spring_dynamic_proxy" target="1.7" />
+      <module name="spring_jdbcTemplate02" target="1.7" />
+      <module name="spring_jdbcTemplete" target="1.7" />
+      <module name="spring_mybatis_xml" target="1.7" />
+      <module name="spring_quartz" target="1.7" />
       <module name="spring_static_proxy" target="1.7" />
+      <module name="spring_transaction" target="1.7" />
       <module name="spring_xml" target="1.7" />
     </bytecodeTargetLevel>
   </component>

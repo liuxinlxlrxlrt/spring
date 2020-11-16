@@ -13,7 +13,7 @@
     <!--</bean>-->
 
     <!--自动装配：一般用byType-->
-    <bean id="userService" class="com.UserServiceImpl" autowire="byName">
+    <bean id="userService" class="com.sxt.service.impl.UserServiceImpl" autowire="byName">
     </bean>
 
     <!--声明controller-->
@@ -21,6 +21,6 @@
         <!--<property name="userService" ref="userService"></property>-->
     <!--</bean>-->
 
-    <bean id="userController" class="com.UserController" autowire="byType">
+    <bean id="userController" class="com.sxt.controller.UserController" autowire="byType">
     </bean>
 </beans>

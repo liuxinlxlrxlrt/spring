@@ -15,6 +15,14 @@
         <module>spring_static_proxy</module>
         <module>spring_dynamic_proxy</module>
         <module>spring_cglib_proxy</module>
+        <module>spring_aop_xml</module>
+        <module>spring_aop_annotaion</module>
+        <module>spring_jdbcTemplete</module>
+        <module>spring_quartz</module>
+        <module>spring_datasource</module>
+        <module>spring_mybatis_xml</module>
+        <module>spring_jdbcTemplate02</module>
+        <module>spring_transaction</module>
     </modules>
     <packaging>pom</packaging>
 

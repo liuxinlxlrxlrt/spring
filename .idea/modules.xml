@@ -6,9 +6,17 @@
       <module fileurl="file://$PROJECT_DIR$/reconstruction_javaee/reconstruction_javaee.iml" filepath="$PROJECT_DIR$/reconstruction_javaee/reconstruction_javaee.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring01/spring01.iml" filepath="$PROJECT_DIR$/spring01/spring01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_annotation/spring_annotation.iml" filepath="$PROJECT_DIR$/spring_annotation/spring_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_aop_annotaion/spring_aop_annotaion.iml" filepath="$PROJECT_DIR$/spring_aop_annotaion/spring_aop_annotaion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_aop_xml/spring_aop_xml.iml" filepath="$PROJECT_DIR$/spring_aop_xml/spring_aop_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_cglib_proxy/spring_cglib_proxy.iml" filepath="$PROJECT_DIR$/spring_cglib_proxy/spring_cglib_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_datasource/spring_datasource.iml" filepath="$PROJECT_DIR$/spring_datasource/spring_datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_dynamic_proxy/spring_dynamic_proxy.iml" filepath="$PROJECT_DIR$/spring_dynamic_proxy/spring_dynamic_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_jdbcTemplate02/spring_jdbcTemplate02.iml" filepath="$PROJECT_DIR$/spring_jdbcTemplate02/spring_jdbcTemplate02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_jdbcTemplete/spring_jdbcTemplete.iml" filepath="$PROJECT_DIR$/spring_jdbcTemplete/spring_jdbcTemplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_mybatis_xml/spring_mybatis_xml.iml" filepath="$PROJECT_DIR$/spring_mybatis_xml/spring_mybatis_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_quartz/spring_quartz.iml" filepath="$PROJECT_DIR$/spring_quartz/spring_quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_static_proxy/spring_static_proxy.iml" filepath="$PROJECT_DIR$/spring_static_proxy/spring_static_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_transaction/spring_transaction.iml" filepath="$PROJECT_DIR$/spring_transaction/spring_transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_xml/spring_xml.iml" filepath="$PROJECT_DIR$/spring_xml/spring_xml.iml" />
     </modules>
   </component>
