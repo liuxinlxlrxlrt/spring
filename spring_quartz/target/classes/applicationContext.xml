@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+        <!--声明任务-->
+        <bean id="jdb01" class="com.sxt.job.MyJob01"></bean>
+        <!--包装任务详情-->
+        <bean id="springQuartz" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+           <!--注入要执行的目标对象-->
+            <property name="targetObject" ref="jdb01"></property>
+            <!--再去注入执行的目标对象的方法-->
+            <property name="targetMethod" value="doTask"></property>
+        </bean>
+
+        <!--配置触发规则-->
+    <bean id="trigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <!--注入任务详情-->
+        <property name="jobDetail" ref="springQuartz"></property>
+        <!--定义触发规则-->
+        <property name="cronExpression" value="0/5 * * * * ? "></property>
+    </bean>
+
+    <!--配置调度器-->
+    <bean id="springJobSchedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <array>
+                <ref bean="trigger"/>
+            </array>
+        </property>
+    </bean>
+</beans>

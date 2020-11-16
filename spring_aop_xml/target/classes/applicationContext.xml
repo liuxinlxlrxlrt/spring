@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:p="http://www.springframework.org/schema/p"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <!--声明目标对象-->
+    <bean name="man" class="com.sxt.domain.Man"></bean>
+
+    <!--进行配置AOP-->
+    <aop:config>
+        <!--声明切面-->
+        <!--execution(* com.sxt.domain.*.*(..)):com.sxt.domain包类下所有方法的所有参数-->
+        <aop:pointcut id="pc1" expression="execution(* com.sxt.domain.*.*(..))"/>
+        <!--织入操作
+        advice-ref：通知对象
+        pointcut-ref：织入到哪一个切面
+        -->
+        <!--织入前置通知-->
+        <!--<aop:advisor advice-ref="beforeAdvice" pointcut-ref="pc1"/>-->
+        <!--织入后置通知-->
+        <!--<aop:advisor advice-ref="afterAdvice" pointcut-ref="pc1"/>-->
+        <!--织入环绕通知-->
+        <!--<aop:advisor advice-ref="aroundAdvice" pointcut-ref="pc1"/>-->
+        <!--异常通知-->
+        <aop:advisor advice-ref="expAdvice" pointcut-ref="pc1"/>
+    </aop:config>
+
+</beans>
