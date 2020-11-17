@@ -23,6 +23,7 @@
         <module>spring_mybatis_xml</module>
         <module>spring_jdbcTemplate02</module>
         <module>spring_transaction</module>
+        <module>spring_transaction_annotation</module>
     </modules>
     <packaging>pom</packaging>
 

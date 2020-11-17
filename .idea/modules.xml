@@ -16,7 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring_mybatis_xml/spring_mybatis_xml.iml" filepath="$PROJECT_DIR$/spring_mybatis_xml/spring_mybatis_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_quartz/spring_quartz.iml" filepath="$PROJECT_DIR$/spring_quartz/spring_quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_static_proxy/spring_static_proxy.iml" filepath="$PROJECT_DIR$/spring_static_proxy/spring_static_proxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring_transaction/spring_transaction.iml" filepath="$PROJECT_DIR$/spring_transaction/spring_transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_transaction_annotation/spring_transaction_annotation.iml" filepath="$PROJECT_DIR$/spring_transaction_annotation/spring_transaction_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_transaction_xml/spring_transaction_xml.iml" filepath="$PROJECT_DIR$/spring_transaction_xml/spring_transaction_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_xml/spring_xml.iml" filepath="$PROJECT_DIR$/spring_xml/spring_xml.iml" />
     </modules>
   </component>

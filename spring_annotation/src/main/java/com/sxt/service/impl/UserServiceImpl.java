@@ -1,6 +1,6 @@
 package com.sxt.service.impl;
 
-import com.sxt.dao.impl.UserDao;
+import com.sxt.dao.UserDao;
 import com.sxt.domain.User;
 import com.sxt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +21,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User queryUserById(Integer id) {
-        return userDao.queryUserById(id);
+        return userDao.queryById(id);
     }
 }

@@ -42,8 +42,8 @@
         -->
         <javaModelGenerator targetPackage="com.sxt.domain.model" targetProject="D:\javaCode\21_ProjectStorageFolder\TestNG\spring\spring_mybatis_xml\src\main\java">
             <!-- 是否允许子包，即targetPackage.schemaName.tableName -->
-            <property name="enableSubPackages" value="false"/>
-            <property name="trimStrings" value="false"/>
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
         <!--Mapper映射文件生成所在的目录 为每一个数据库的表生成对应的SqlMap文件
@@ -51,7 +51,7 @@
         -->
         <sqlMapGenerator targetPackage="mapper"
                          targetProject="D:\javaCode\21_ProjectStorageFolder\TestNG\spring\spring_mybatis_xml\src\main\resources">
-            <property name="enableSubPackages" value="false"/>
+            <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
         <!-- 客户端代码，生成易于使用的针对Model对象和XML配置文件 的代码
@@ -61,7 +61,8 @@
        <!指定dao接口生成的位置，mapper接口>
        -->
         <javaClientGenerator targetPackage="com.sxt.domain.dao"
-                             targetProject="D:\javaCode\21_ProjectStorageFolder\TestNG\spring\spring_mybatis_xml\src\main\java" type="XMLMAPPER">
+                             targetProject="D:\javaCode\21_ProjectStorageFolder\TestNG\spring\spring_mybatis_xml\src\main\java"
+                             type="XMLMAPPER">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 

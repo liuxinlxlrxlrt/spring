@@ -19,7 +19,7 @@
         <module name="spring_mybatis_xml" />
         <module name="spring_quartz" />
         <module name="spring_static_proxy" />
-        <module name="spring_transaction" />
+        <module name="spring_transaction_annotation" />
         <module name="spring_xml" />
       </profile>
     </annotationProcessing>
@@ -39,7 +39,8 @@
       <module name="spring_mybatis_xml" target="1.7" />
       <module name="spring_quartz" target="1.7" />
       <module name="spring_static_proxy" target="1.7" />
-      <module name="spring_transaction" target="1.7" />
+      <module name="spring_transaction_annotation" target="1.7" />
+      <module name="spring_transaction_xml" target="1.7" />
       <module name="spring_xml" target="1.7" />
     </bytecodeTargetLevel>
   </component>
